@@ -1,4 +1,4 @@
-# 🚗 Vehicle Sales Data Analysis Dashboard
+🚗 Vehicle Sales Data Analysis Dashboard
 
 <p align="center">
   <img src="assets/dashboard_walkthrough.gif" alt="Vehicle Sales Dashboard Walkthrough" width="100%">
@@ -9,52 +9,56 @@
 </p>
 
 <p align="center">
-
   <img src="https://img.shields.io/badge/Power%20BI-Dashboard-F2C811?style=for-the-badge&logo=powerbi&logoColor=black">
   <img src="https://img.shields.io/badge/Data-Analysis-4F8CFF?style=for-the-badge">
   <img src="https://img.shields.io/badge/DAX-Measures-9B7BFF?style=for-the-badge">
   <img src="https://img.shields.io/badge/Status-Completed-2ECC71?style=for-the-badge">
-
 </p>
 
----
+🌟 Project Overview
 
-## 🌟 Project Overview
+This project is an interactive Vehicle Sales Data Analysis Dashboard created in Power BI.
 
-This project is an **interactive Vehicle Sales Data Analysis Dashboard** created in **Power BI**.
+The dashboard is designed to analyze vehicle sales data through interactive slicers, KPI cards, charts, a map, and a detailed table. Users can filter the report and explore important sales patterns from multiple perspectives.
 
-The dashboard analyzes vehicle sales data using KPI cards, interactive slicers, charts, a map, and a detailed table.
+🎯 Main Objective
 
-### 🎯 Main Objective
+To transform raw vehicle sales data into an easy-to-understand interactive dashboard that supports analysis of:
 
-* 🚗 Analyze vehicle sales
-* 💰 Analyze selling price
-* 📊 Track total MMR
-* 🛣️ Analyze average odometer
-* 🏷️ Compare vehicle makes and models
-* 👥 Analyze seller performance
-* 🗺️ Explore state-wise data
-* ⚙️ Filter by transmission
-* 🚘 Filter by vehicle body type
-* 📅 Analyze data by year
+🚗 Vehicle sales
 
----
+💰 Selling price
 
-# 🎬 Dashboard Walkthrough
+📊 MMR value
+
+🛣️ Odometer readings
+
+🏷️ Vehicle make and model
+
+👥 Seller performance
+
+🗺️ State information
+
+⚙️ Transmission type
+
+🚘 Vehicle body type
+
+📅 Year-based analysis
+
+🎬 Dashboard Walkthrough
 
 <p align="center">
   <img src="assets/dashboard_walkthrough.gif" alt="Dashboard Walkthrough GIF" width="100%">
 </p>
 
----
-
-# 🔄 Project Workflow
+🔄 Project Workflow
 
 <p align="center">
-  <img src="assets/project_workflow.gif" alt="Project Workflow GIF" width="100%">
+  <img src="assets/project_workflow.gif" alt="Power BI Project Workflow GIF" width="100%">
 </p>
 
-```text
+The project follows this workflow:
+
 Vehicle Sales Data
         ↓
 Data Cleaning & Preparation
@@ -68,157 +72,192 @@ Dashboard Visualizations
 Interactive Slicers
         ↓
 Business Insights
-```
 
----
-
-# 📊 Dashboard Visuals
+📊 Dashboard Visuals
 
 <p align="center">
   <img src="assets/visuals_showcase.gif" alt="Dashboard Visuals GIF" width="100%">
 </p>
 
-| Visual                    | Purpose                           |
-| ------------------------- | --------------------------------- |
-| 📝 Text Box               | Vehicle Sales Data heading        |
-| 🔢 KPI Card               | Total vehicle sold                |
-| 💰 KPI Card               | Total price                       |
-| 📊 KPI Card               | Total MMR                         |
-| 🛣️ KPI Card              | Average odometer                  |
-| 📈 100% Stacked Bar Chart | Selling price by make and year    |
-| 🥧 Pie Chart              | Sales by seller                   |
-| 🗺️ Map                   | State analysis                    |
-| 📋 Table                  | Make, MMR, model and transmission |
-| 🎛️ Slicer                | Year                              |
-| 🎛️ Slicer                | Body                              |
-| 🎛️ Slicer                | Transmission                      |
+The actual PBIX report contains the following visual components:
 
----
+Visual
 
-# 📸 Dashboard Preview
+Purpose
+
+📝 Text Box
+
+Dashboard heading: Vehicle Sales Data
+
+🔢 KPI Card
+
+Total vehicle sold
+
+💰 KPI Card
+
+Total price
+
+📊 KPI Card
+
+Total MMR
+
+🛣️ KPI Card
+
+Average odometer
+
+📈 100% Stacked Bar Chart
+
+Selling price by make with year comparison
+
+🥧 Pie Chart
+
+Sales distribution by seller
+
+🗺️ Map
+
+Vehicle state analysis
+
+📋 Table
+
+Make, total MMR, model and transmission
+
+🎛️ Slicer
+
+Year filter
+
+🎛️ Slicer
+
+Body filter
+
+🎛️ Slicer
+
+Transmission filter
+
+📸 Dashboard Preview
 
 <p align="center">
   <img src="assets/dashboard_preview.png" alt="Vehicle Sales Dashboard Preview" width="100%">
 </p>
 
----
+🎯 KPI Cards
 
-# 🎯 KPI Cards
+The dashboard includes four important business metrics.
 
-### 🚗 Total Vehicle Sold
+🚗 Total Vehicle Sold
 
 Shows the total number of vehicles sold.
 
-### 💰 Total Price
+💰 Total Price
 
-Shows the overall selling price.
+Shows the overall selling price value.
 
-### 📊 Total MMR
+📊 Total MMR
 
-Shows the total MMR value.
+Shows the total Market Manheim Report value available in the report.
 
-### 🛣️ Average Odometer
+🛣️ Average Odometer
 
-Shows the average odometer reading.
+Shows the average odometer reading of vehicles.
 
----
+📈 Sales Analysis by Make and Year
 
-# 📈 Sales Analysis by Make and Year
+The dashboard uses a 100% Stacked Bar Chart for analyzing vehicle selling price.
 
-The report uses a **100% Stacked Bar Chart**.
+Fields used
 
-```text
 Category  → Make
 Values    → Sum of Selling Price
 Series    → Year
-```
 
-This helps compare vehicle makes and selling prices across years.
+This visualization helps compare vehicle makes across different years.
 
----
+🥧 Seller Analysis
 
-# 🥧 Seller Analysis
+A Pie Chart is used for seller-based sales analysis.
 
-A **Pie Chart** is used for seller-based analysis.
+Fields used
 
-```text
 Category → Seller
 Values   → Total Sales
-```
 
-This helps understand the distribution of vehicle sales among sellers.
+This helps understand how vehicle sales are distributed across sellers.
 
----
+🗺️ State Analysis
 
-# 🗺️ State Analysis
+A Map Visual is used with the state field.
 
-A **Map Visual** is used for geographical analysis.
-
-```text
 Location → State
-```
 
----
+This provides a geographical view of the locations represented in the vehicle dataset.
 
-# 📋 Vehicle Details Table
+📋 Vehicle Details Table
 
-The dashboard table includes:
+The report includes a table containing:
 
-```text
 Make
 Total MMR
 Model
 Transmission
-```
 
----
+This allows users to inspect detailed vehicle-related information.
 
-# 🎛️ Interactive Filters
+🎛️ Interactive Slicers
 
-The report contains the following slicers:
+The dashboard includes three slicers.
 
-### 📅 Year
+📅 Year
 
-Filter dashboard data based on year.
+Filter the dashboard based on vehicle year.
 
-### 🚘 Body
+🚘 Body
 
 Filter vehicles according to body type.
 
-### ⚙️ Transmission
+⚙️ Transmission
 
-Filter the dashboard according to transmission type.
+Filter data based on transmission type.
 
----
+All connected visuals can respond to the selected filters.
 
-# 🧮 Measures Used
+🧮 Measures Used in the Report
 
 The PBIX report contains these measures:
 
-```text
 total sales
 total price
 total mmr
 avodmeter
-```
 
----
+These measures power the KPI cards and other report visuals.
 
-# 🛠️ Tools & Technologies
+🛠️ Tools & Technologies
 
-| Technology            | Usage                        |
-| --------------------- | ---------------------------- |
-| 🟡 Power BI           | Dashboard development        |
-| 🧮 DAX                | Measures and calculations    |
-| 🧹 Power Query        | Data preparation             |
-| 📊 Data Visualization | Charts, cards, map and table |
-| 🎛️ Slicers           | Interactive filtering        |
+Technology
 
----
+Usage
 
-# 📂 Project Structure
+🟡 Power BI
 
-```text
+Dashboard creation
+
+🧮 DAX
+
+Measures and calculations
+
+🧹 Power Query
+
+Data preparation and transformation
+
+📊 Data Visualization
+
+Charts, cards, map and table
+
+🎛️ Slicers
+
+Interactive filtering
+
+📂 Project Structure
+
 Vehicle-Sales-PowerBI/
 │
 ├── pra.pbix
@@ -230,69 +269,74 @@ Vehicle-Sales-PowerBI/
     ├── visuals_showcase.gif
     ├── dashboard_preview.png
     └── gradient-particle-wave-background.jpg
-```
 
----
+🚀 How to Run the Project
 
-# 🚀 How to Run the Project
-
-### 1️⃣ Download the Repository
+1️⃣ Download the Repository
 
 Download or clone this project.
 
-### 2️⃣ Open Power BI Desktop
+2️⃣ Open Power BI Desktop
 
-Open:
+Open the following file:
 
-```text
 pra.pbix
-```
 
-### 3️⃣ Use the Interactive Filters
+3️⃣ Wait for the Report to Load
 
-Use:
+Allow Power BI to load the report and all visuals.
 
-* Year
-* Body
-* Transmission
+4️⃣ Use the Interactive Filters
 
-### 4️⃣ Explore the Dashboard
+Select values from:
+
+Year
+
+Body
+
+Transmission
+
+5️⃣ Explore the Dashboard
 
 Analyze KPI cards, sales by make, seller distribution, state map, and vehicle details.
 
----
+💡 Questions This Dashboard Can Help Answer
 
-# 💡 Key Questions
+Which vehicle make has higher selling price?
 
-This dashboard can help answer:
+How does selling price compare across years?
 
-* Which vehicle make has higher selling price?
-* How does selling price compare across years?
-* How are sales distributed across sellers?
-* Which states are represented?
-* What is the total MMR?
-* What is the average odometer reading?
-* How does transmission filtering affect the analysis?
-* How does vehicle body type affect the report?
+How are sales distributed across sellers?
 
----
+Which states are represented in the report?
 
-# 🔮 Future Improvements
+What is the total MMR value?
 
-* 📅 Monthly and quarterly sales trends
-* 📈 Top N vehicle analysis
-* 💵 Profit and cost analysis
-* 🏆 Seller ranking
-* 🔍 Drill-through pages
-* 📉 Advanced trend analysis
+What is the average odometer reading?
 
----
+How does transmission-based filtering affect the report?
 
-# 👨‍💻 Author
+How does vehicle body type affect the analysis?
 
-**Manan**
+🔮 Future Improvements
 
----
+📅 Add monthly and quarterly trends
+
+📈 Add Top N vehicle make and model analysis
+
+💵 Add profit and cost analysis
+
+🏆 Add seller ranking
+
+🔍 Add drill-through pages
+
+📉 Add advanced trend and forecasting visuals
+
+🧭 Add more interactive navigation
+
+👨‍💻 Author
+
+Manan
 
 <p align="center">
   ⭐ If you like this project, give the repository a star!
@@ -301,4 +345,3 @@ This dashboard can help answer:
 <p align="center">
   Made with ❤️ using Power BI
 </p>
-::: ​​
