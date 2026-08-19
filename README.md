@@ -1,7 +1,7 @@
-🚗 Vehicle Sales Data Analysis Dashboard
+# 🚗 Vehicle Sales Data Analysis Dashboard
 
 <p align="center">
-  <img src="assets/vehicle_sales_dashboard.gif" alt="Vehicle Sales Dashboard GIF" width="100%">
+  <img src="assets/dashboard_walkthrough.gif" alt="Vehicle Sales Dashboard Walkthrough" width="100%">
 </p>
 
 <p align="center">
@@ -9,311 +9,296 @@
 </p>
 
 <p align="center">
+
   <img src="https://img.shields.io/badge/Power%20BI-Dashboard-F2C811?style=for-the-badge&logo=powerbi&logoColor=black">
   <img src="https://img.shields.io/badge/Data-Analysis-4F8CFF?style=for-the-badge">
+  <img src="https://img.shields.io/badge/DAX-Measures-9B7BFF?style=for-the-badge">
   <img src="https://img.shields.io/badge/Status-Completed-2ECC71?style=for-the-badge">
+
 </p>
 
-📌 Project Overview
+---
 
-This project is an interactive Vehicle Sales Data Analysis Dashboard created in Power BI.
+## 🌟 Project Overview
 
-The dashboard helps users analyze vehicle sales using important business metrics and interactive filters. It provides insights into:
+This project is an **interactive Vehicle Sales Data Analysis Dashboard** created in **Power BI**.
 
-🚘 Total vehicles sold
+The dashboard analyzes vehicle sales data using KPI cards, interactive slicers, charts, a map, and a detailed table.
 
-💰 Total selling price
+### 🎯 Main Objective
 
-📊 Total MMR value
+* 🚗 Analyze vehicle sales
+* 💰 Analyze selling price
+* 📊 Track total MMR
+* 🛣️ Analyze average odometer
+* 🏷️ Compare vehicle makes and models
+* 👥 Analyze seller performance
+* 🗺️ Explore state-wise data
+* ⚙️ Filter by transmission
+* 🚘 Filter by vehicle body type
+* 📅 Analyze data by year
 
-🛣️ Average odometer reading
+---
 
-📅 Vehicle sales by year
-
-🚗 Vehicle body type analysis
-
-⚙️ Transmission-based filtering
-
-📈 Selling price by vehicle model
-
-👥 Sales count by seller
-
-🗺️ State-wise vehicle analysis
-
-📋 Make, model and MMR summary
-
-🎬 Dashboard GIF Preview
+# 🎬 Dashboard Walkthrough
 
 <p align="center">
-  <img src="assets/vehicle_sales_dashboard.gif" alt="Vehicle Sales Dashboard Demo" width="100%">
+  <img src="assets/dashboard_walkthrough.gif" alt="Dashboard Walkthrough GIF" width="100%">
 </p>
 
-The GIF demonstrates the main dashboard layout and interactive analysis flow.
+---
 
-📸 Dashboard Preview
+# 🔄 Project Workflow
+
+<p align="center">
+  <img src="assets/project_workflow.gif" alt="Project Workflow GIF" width="100%">
+</p>
+
+```text
+Vehicle Sales Data
+        ↓
+Data Cleaning & Preparation
+        ↓
+Data Transformation
+        ↓
+DAX Measures
+        ↓
+Dashboard Visualizations
+        ↓
+Interactive Slicers
+        ↓
+Business Insights
+```
+
+---
+
+# 📊 Dashboard Visuals
+
+<p align="center">
+  <img src="assets/visuals_showcase.gif" alt="Dashboard Visuals GIF" width="100%">
+</p>
+
+| Visual                    | Purpose                           |
+| ------------------------- | --------------------------------- |
+| 📝 Text Box               | Vehicle Sales Data heading        |
+| 🔢 KPI Card               | Total vehicle sold                |
+| 💰 KPI Card               | Total price                       |
+| 📊 KPI Card               | Total MMR                         |
+| 🛣️ KPI Card              | Average odometer                  |
+| 📈 100% Stacked Bar Chart | Selling price by make and year    |
+| 🥧 Pie Chart              | Sales by seller                   |
+| 🗺️ Map                   | State analysis                    |
+| 📋 Table                  | Make, MMR, model and transmission |
+| 🎛️ Slicer                | Year                              |
+| 🎛️ Slicer                | Body                              |
+| 🎛️ Slicer                | Transmission                      |
+
+---
+
+# 📸 Dashboard Preview
 
 <p align="center">
   <img src="assets/dashboard_preview.png" alt="Vehicle Sales Dashboard Preview" width="100%">
 </p>
 
-✨ Dashboard Features
+---
 
-Feature
+# 🎯 KPI Cards
 
-Description
+### 🚗 Total Vehicle Sold
 
-📊 KPI Cards
+Shows the total number of vehicles sold.
 
-Shows important metrics such as Total Sales, Total Price, Total MMR and Average Odometer
+### 💰 Total Price
 
-📅 Year Filter
+Shows the overall selling price.
 
-Filters the dashboard based on vehicle year
+### 📊 Total MMR
 
-🚙 Body Filter
+Shows the total MMR value.
 
-Analyzes different vehicle body types
+### 🛣️ Average Odometer
 
-⚙️ Transmission Filter
+Shows the average odometer reading.
 
-Filters data based on transmission type
+---
 
-📈 Model Analysis
+# 📈 Sales Analysis by Make and Year
 
-Compares selling price across vehicle models
+The report uses a **100% Stacked Bar Chart**.
 
-🥧 Seller Analysis
+```text
+Category  → Make
+Values    → Sum of Selling Price
+Series    → Year
+```
 
-Shows vehicle sales count by seller
+This helps compare vehicle makes and selling prices across years.
 
-🗺️ State Analysis
+---
 
-Visualizes vehicle-related data geographically
+# 🥧 Seller Analysis
 
-📋 Summary Table
+A **Pie Chart** is used for seller-based analysis.
 
-Displays make, model and MMR-related information
+```text
+Category → Seller
+Values   → Total Sales
+```
 
-📊 Visualizations Used
+This helps understand the distribution of vehicle sales among sellers.
 
-1️⃣ KPI Cards
+---
 
-The dashboard contains four important KPI cards:
+# 🗺️ State Analysis
 
-Total Vehicles Sold
-Total Price
-Total MMR
-Average Odometer
+A **Map Visual** is used for geographical analysis.
 
-These KPIs provide a quick summary of the complete vehicle sales dataset.
+```text
+Location → State
+```
 
-2️⃣ Sales Price by Model
+---
 
-A 100% Stacked Bar Chart is used to compare vehicle selling prices by different models.
+# 📋 Vehicle Details Table
 
-This helps answer:
+The dashboard table includes:
 
-Which vehicle model has higher sales value?
-
-Which model contributes more to the total selling price?
-
-How does selling price vary across models?
-
-3️⃣ Count Sales by Seller
-
-A Pie Chart is used to visualize vehicle sales distribution by seller.
-
-This helps identify:
-
-Top contributing sellers
-
-Sales distribution
-
-Seller-wise performance
-
-4️⃣ State-Wise Analysis
-
-A Map Visualization displays vehicle data according to different states.
-
-This makes geographical analysis easier and helps identify locations present in the dataset.
-
-5️⃣ Make, Model & MMR Table
-
-A Table Visualization displays:
-
+```text
 Make
-Model
 Total MMR
+Model
+Transmission
+```
 
-This provides a detailed summary of vehicle brands and models.
+---
 
-🎛️ Interactive Filters
+# 🎛️ Interactive Filters
 
-The Power BI dashboard contains the following slicers:
+The report contains the following slicers:
 
-📅 Year
+### 📅 Year
 
-Filter data based on vehicle manufacturing/sales year.
+Filter dashboard data based on year.
 
-🚘 Body
+### 🚘 Body
 
-Filter vehicles based on body type.
+Filter vehicles according to body type.
 
-⚙️ Transmission
+### ⚙️ Transmission
 
-Filter vehicles based on transmission type.
+Filter the dashboard according to transmission type.
 
-All visualizations update interactively when a filter is selected.
+---
 
-🧮 DAX Measures Used
+# 🧮 Measures Used
 
-The dashboard uses important calculated measures such as:
+The PBIX report contains these measures:
 
-Total Sales = SUM(Table1[sellingprice])
+```text
+total sales
+total price
+total mmr
+avodmeter
+```
 
-Total Price = SUM(Table1[sellingprice])
+---
 
-Total MMR = SUM(Table1[mmr])
+# 🛠️ Tools & Technologies
 
-Average Odometer = AVERAGE(Table1[odometer])
+| Technology            | Usage                        |
+| --------------------- | ---------------------------- |
+| 🟡 Power BI           | Dashboard development        |
+| 🧮 DAX                | Measures and calculations    |
+| 🧹 Power Query        | Data preparation             |
+| 📊 Data Visualization | Charts, cards, map and table |
+| 🎛️ Slicers           | Interactive filtering        |
 
-The exact measure names in the PBIX file are represented in the dashboard as total sales, total price, total mmr, and avodmeter.
+---
 
-🛠️ Tools & Technologies
+# 📂 Project Structure
 
-Tool
-
-Purpose
-
-🟡 Power BI
-
-Dashboard development and visualization
-
-📊 DAX
-
-Creating calculated measures
-
-🧹 Power Query
-
-Data cleaning and transformation
-
-📈 Data Visualization
-
-Business insights and analysis
-
-🔄 Project Workflow
-
-flowchart LR
-    A[📁 Vehicle Sales Data] --> B[🧹 Data Cleaning]
-    B --> C[🔧 Data Transformation]
-    C --> D[🧮 DAX Measures]
-    D --> E[📊 Dashboard Creation]
-    E --> F[🎛️ Add Slicers]
-    F --> G[📈 Business Insights]
-
-📂 Project Structure
-
+```text
 Vehicle-Sales-PowerBI/
 │
 ├── pra.pbix
 ├── README.md
 │
 └── assets/
-    ├── vehicle_sales_dashboard.gif
-    └── dashboard_preview.png
+    ├── dashboard_walkthrough.gif
+    ├── project_workflow.gif
+    ├── visuals_showcase.gif
+    ├── dashboard_preview.png
+    └── gradient-particle-wave-background.jpg
+```
 
-🚀 How to Use This Project
+---
 
-Step 1: Download the Project
+# 🚀 How to Run the Project
 
-Download or clone this repository.
+### 1️⃣ Download the Repository
 
-Step 2: Open Power BI Desktop
+Download or clone this project.
+
+### 2️⃣ Open Power BI Desktop
 
 Open:
 
+```text
 pra.pbix
+```
 
-Step 3: Explore the Dashboard
+### 3️⃣ Use the Interactive Filters
 
-Use the slicers for:
+Use:
 
-Year
+* Year
+* Body
+* Transmission
 
-Body
+### 4️⃣ Explore the Dashboard
 
-Transmission
+Analyze KPI cards, sales by make, seller distribution, state map, and vehicle details.
 
-Step 4: Analyze the Results
+---
 
-Click on different charts and visuals to interact with the data and explore vehicle sales insights.
+# 💡 Key Questions
 
-📌 Key Insights You Can Explore
+This dashboard can help answer:
 
-Which vehicle models generate higher selling prices?
+* Which vehicle make has higher selling price?
+* How does selling price compare across years?
+* How are sales distributed across sellers?
+* Which states are represented?
+* What is the total MMR?
+* What is the average odometer reading?
+* How does transmission filtering affect the analysis?
+* How does vehicle body type affect the report?
 
-Which sellers contribute the most sales?
+---
 
-How are vehicles distributed across states?
+# 🔮 Future Improvements
 
-How does transmission affect sales?
+* 📅 Monthly and quarterly sales trends
+* 📈 Top N vehicle analysis
+* 💵 Profit and cost analysis
+* 🏆 Seller ranking
+* 🔍 Drill-through pages
+* 📉 Advanced trend analysis
 
-Which body types are present in the dataset?
+---
 
-How does vehicle year influence the analysis?
+# 👨‍💻 Author
 
-What is the average odometer reading?
+**Manan**
 
-🖼️ Suggested Repository Images
-
-For an even better GitHub project presentation, you can add screenshots of:
-
-🏠 Main Dashboard
-
-📊 Sales Price by Model
-
-🥧 Seller Analysis
-
-🗺️ State-Wise Map
-
-🎛️ Slicers and Filters
-
-🎬 Dashboard GIF
-
-Recommended folder:
-
-assets/
-├── dashboard_main.png
-├── sales_by_model.png
-├── seller_analysis.png
-├── state_analysis.png
-├── filters.png
-└── vehicle_sales_dashboard.gif
-
-🌟 Future Improvements
-
-Add monthly and quarterly sales trends
-
-Add profit and cost analysis
-
-Create Top N vehicle models
-
-Add seller ranking
-
-Add more advanced DAX calculations
-
-Add drill-through pages
-
-Add forecasting and trend analysis
-
-👨‍💻 Author
-
-Manan
+---
 
 <p align="center">
-  ⭐ If you like this project, consider giving the repository a star!
+  ⭐ If you like this project, give the repository a star!
 </p>
 
 <p align="center">
   Made with ❤️ using Power BI
 </p>
+::: ​​
